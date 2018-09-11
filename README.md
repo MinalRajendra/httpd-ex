@@ -6,6 +6,7 @@ on [OpenShift](https://www.openshift.com) using the [Apache HTTP Server builder 
 The application serves a single static html page via httpd.
 
 To build and run the application:
+Follow this:
 
 ```
 $ s2i build https://github.com/sclorg/httpd-ex centos/httpd-24-centos7 myhttpdimage
